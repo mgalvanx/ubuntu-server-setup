@@ -6,7 +6,7 @@ update_system() {
 }
 
 install_base() {
-  sudo apt-get install -y vim tmux git man-db lynx w3m go python-is-python3 pandoc jq entr
+  sudo apt-get install -y vim tmux git man-db lynx w3m golang-go python-is-python3 pandoc jq entr
 
 }
 
