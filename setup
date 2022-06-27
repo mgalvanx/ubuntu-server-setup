@@ -1,3 +1,25 @@
 #!bin/bash
-sudo unminimize -y && sudo apt-get update -y && sudo apt-get upgrade -y
 
+update_system() {
+  sudo apt-get update -y 
+  sudo apt-get upgrade -y
+}
+
+install_fun() {
+  sudo apt-get install -y vim tmux git man-db lynx w3m go python-is-python3 pandoc jq entr
+
+}
+
+install_fun() {
+  sudo apt-get install -y lolcat cowsay figlet cmatrix 
+}
+
+
+main() {
+  update_system
+  install_base
+  install_fun
+
+}
+
+main
