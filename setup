@@ -5,7 +5,7 @@ update_system() {
   sudo apt-get upgrade -y
 }
 
-install_fun() {
+install_base() {
   sudo apt-get install -y vim tmux git man-db lynx w3m go python-is-python3 pandoc jq entr
 
 }
