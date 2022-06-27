@@ -16,8 +16,8 @@ install_fun() {
 
 
 main() {
-#  update_system
-   install_base
+  update_system
+#   install_base
 #   install_fun
 
 }
